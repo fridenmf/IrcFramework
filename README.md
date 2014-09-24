@@ -20,7 +20,7 @@ First look at this example:
       }
 
       public HelloSimpleBot(String host, int port, String nick, String user) {
-        super(host, port, nick, user, null);
+        super(host, port, nick, user);
       }
 
       @Override
