@@ -116,7 +116,7 @@ public class HelloVerbosePlugin extends IrcPlugin {
 	
 	@Override
 	public void onUnhandledEvent(OnUnhandledEventEvent e) {
-		System.err.println("Unhandled ln: "+e.getLine());
+//		System.err.println("Unhandled ln: "+e.getLine());
 	}
 	
 	@Override
